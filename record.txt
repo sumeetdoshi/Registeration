@@ -1,0 +1,2 @@
+('sumet', 'male', '84+8541+5', 'cash')
+('sumeet', 'male', '9510100384', 'cash')
