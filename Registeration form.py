@@ -2,7 +2,6 @@ from tkinter import *
 import tkinter.messagebox as tmsg
 root=Tk()
 def getvalues():
-    print("{namevalue.get(),gendervalue.get(),phonevalue.get(),paymentvalue.get()}")
     with open("record.txt","a") as f :
         f.write(f"{namevalue.get(),gendervalue.get(),phonevalue.get(),paymentvalue.get()}\n")
     ask = tmsg.askquestion("save ", "Would you like to submit")
@@ -52,7 +51,6 @@ e2.grid(row=2,column=2)
 e3.grid(row=3,column=2)
 e4.grid(row=4,column=2)
 def  value ():
-    print("chalgaya!!!")
 def value1():
     vale=tmsg.askquestion("save ","Would you like to save")
     if vale=="yes":
